@@ -33,7 +33,7 @@
     </p>
     <p> I then instantiated a normal XGB model because they use their internal gradient function to search for the optimal settings, 
         I figured it was a natural step after a DecisionTree. When I was finished with that, I set a gridsearchinh XGB model.
-        It was my thought of putting the last two models I made together to make get the best of both worlds. The model iterated
+        It was my thought of putting the last two models I made together to get the best of both worlds. The model iterated
         through my grid to establish its own best parameters.
     </p>
     
@@ -60,10 +60,9 @@
             and test data. Resized samplings using SMOTE were also included.
         </p>
     <p> The models being stochastic in nature provided different results when I would run the same code.
-        To address that I made a code that ran the modelsummary function I wrote n number of time. After setting n to 5, I ran all
-        of my models. I ended up choosing the gridsearch model becasue its recall and accuracy score were the most consistent and
-        well performing of the models. It also did not run for too long, especially when comparing to the XGB grid model.
+        To address that, I made a code that ran the ModelSummary function n number of times. After setting n to 5, I ran all
+        of my models that many times. I ended up choosing the <b>gridsearch</b> model because its recall and accuracy score were the most 
+        consistent and well performing of the models. It also did not run for too long, especially when comparing to the XGB grid model.
     </p>
-
-    </body>
+</body>
     
